@@ -43,10 +43,10 @@ st.divider()
 
 st.sidebar.header("Filtros")
 
-manufacturer = st.sidebar.multiselect(
-    "Fabricante",
-    sorted(df["manufacturer"].dropna().unique()),
-    default=sorted(df["manufacturer"].dropna().unique())
+model = st.sidebar.multiselect(
+    "Modelo",
+    sorted(df["model"].dropna().unique()),
+    default=sorted(df["model"].dropna().unique())
 )
 
 vehicle_type = st.sidebar.multiselect(
