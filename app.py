@@ -68,16 +68,11 @@ filtered_df = df[
 ]
 
 # Si los filtros no devuelven datos
-
 if filtered_df.empty:
     st.warning("No existen vehículos con esos filtros.")
     st.stop()
-    
-    if filtered_df.empty:
-    st.warning("No existen vehículos con esos filtros.")
-    st.stop()
-    
-    # --------------------------------------------------
+
+# --------------------------------------------------
 # KPIs
 # --------------------------------------------------
 
