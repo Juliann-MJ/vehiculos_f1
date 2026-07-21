@@ -62,7 +62,7 @@ fuel = st.sidebar.multiselect(
 )
 
 filtered_df = df[
-    (df["manufacturer"].isin(manufacturer)) &
+    (df["model"].isin(model)) &
     (df["type"].isin(vehicle_type)) &
     (df["fuel"].isin(fuel))
 ]
