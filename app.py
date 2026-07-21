@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/vehicles_us.csv")
+    df = pd.read_csv("data/vehicles_us_limpio_V2.csv")
     return df
 
 
