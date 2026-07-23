@@ -146,3 +146,31 @@ st.plotly_chart(
     fig,
     use_container_width=True
 )
+
+# --------------------------------------------------
+# Gráfico de dispersión
+# --------------------------------------------------
+
+st.subheader("🚗 Relación entre Precio y Kilometraje")
+
+fig = px.scatter(
+    filtered_df,
+    x="odometer",
+    y="price",
+    color="condition",
+    hover_data=["model", "model_year"],
+    labels={
+        "odometer": "Kilometraje",
+        "price": "Precio ($)",
+        "condition": "Condición"
+    },
+    title="Precio vs. Kilometraje"
+)
+
+fig.update_layout(
+    template="plotly_white",
+    xaxis_title="Kilometraje",
+    yaxis_title="Precio ($)"
+)
+
+st.plotly_chart(fig, use_container_width=True)
