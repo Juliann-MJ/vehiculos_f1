@@ -1,7 +1,7 @@
 # ***Sprint 7 Project: Streamlit.*** 🚗 
 
 ### ***_Primera Visualizacion de la Aplicacion_***
-![alt text](image-2.png)
+![alt text](image.png)
 
 ### 📌 ***_Project Description._***
 * Llevar a cabo la ejecucion de practica con datos e ingenieria en software aplicando el analisis de datos, tambien se llevo a cabo la interaccion con un entornos virtuales, aplicacion de repositorio en GitHub y el desarrollo de Dashboards interactivos.
