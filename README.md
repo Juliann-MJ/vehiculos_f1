@@ -28,8 +28,23 @@
 * app.py
 * requeriments.txt
 
+### 📖 ***Libraries and Tools.._*** 🛠️
+* Python.
+* Pandas.
+* Streamlit.
+* Plotly.
+* Git and GitHub.
+* VS Code.
+* Render.
 
+### 🌐 ***_Application Deployed._***
+[https://vehiculos-f1.onrender.com/]
 
+### 📂 ***_Main Files._***
+* Notebooks: vehicles_us.csv
+* app.py: Aplicacion desplegada en Render.
+
+### 🔗 ***_Repository link._***
 
 
 
