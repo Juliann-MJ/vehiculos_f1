@@ -10,6 +10,17 @@
 ### 🎯  ***_Project Objective._***
 * Desarrollar una aplicacion web en Streamlit, o que nos permitira la visualizacion interactiva mediante un conjunto de datos aplicando el control de versiones y el correcto despliege en la nube.
 
+### 📂 ***_Dataset._***
+* vehicles_us.csv
+* El conjunto de datos se utilizo con fines de interaccion mediantes Dashboards integrado en una aplicacion web.
+* No se requirio un analisis exploratorio ni estadistico mas a profundidad.
+
+### 🛠️ ***_Function of the Application._***
+* Muestra un encabezado de la aplicacion.
+* Muestra de datos mediante un histograma.
+* Muestra de un grafico de dispersion interactivo mediante flitros.
+* Muestra de manera interactiva los datos del Dataset a traves de un navegador web.
+
 
 
 
