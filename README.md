@@ -21,6 +21,15 @@
 * Muestra de un grafico de dispersion interactivo mediante flitros.
 * Muestra de manera interactiva los datos del Dataset a traves de un navegador web.
 
+### 🗂️ ***_Project Structure._***
+* Dataset: vehicles_us.csv
+* Notebooks: 
+    EDA.ipynb
+* app.py
+* requeriments.txt
+
+
+
 
 
 
