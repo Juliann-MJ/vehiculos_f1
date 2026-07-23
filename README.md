@@ -28,7 +28,7 @@
 * app.py
 * requeriments.txt
 
-### 📖 ***Libraries and Tools.._*** 🛠️
+### 📖 ***Libraries and Tools.*** 🛠️
 * Python.
 * Pandas.
 * Streamlit.
@@ -45,7 +45,7 @@
 * app.py: Aplicacion desplegada en Render.
 
 ### 🔗 ***_Repository link._***
-
+* Link: 
 
 
 Podemos encontrar el enlace de Render: https://vehiculos-f1.onrender.com
