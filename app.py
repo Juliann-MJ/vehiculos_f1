@@ -174,3 +174,41 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
+# --------------------------------------------------
+# Top 10 modelos con más anuncios
+# --------------------------------------------------
+
+st.subheader("🏆 Top 10 Most Listed Vehicle Models")
+
+top_models = (
+    filtered_df["model"]
+    .value_counts()
+    .head(10)
+    .sort_values()
+    .reset_index()
+)
+
+top_models.columns = ["Model", "Listings"]
+
+fig = px.bar(
+    top_models,
+    x="Listings",
+    y="Model",
+    orientation="h",
+    color="Listings",
+    color_continuous_scale="Blues",
+    text="Listings"
+)
+
+fig.update_layout(
+    template="plotly_white",
+    title="Top 10 Most Listed Vehicle Models",
+    title_x=0.5,
+    xaxis_title="Number of Listings",
+    yaxis_title=""
+)
+
+fig.update_traces(textposition="outside")
+
+st.plotly_chart(fig, use_container_width=True)
