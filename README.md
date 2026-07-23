@@ -45,7 +45,7 @@
 * app.py: Aplicacion desplegada en Render.
 
 ### 🔗 ***_Repository link._***
-* Link: 
+* Link: [https://github.com/Juliann-MJ/vehiculos_f1]
 
-
-Podemos encontrar el enlace de Render: https://vehiculos-f1.onrender.com
+### ✍️ ***_Final conclusion._***
+* Este proyecto nos introduce a la demostracion de datos mediante una aplicacion web, lo que nos permite dar mejor entendimiento a un conjunto de datos, con esto podemos decir que se pueden ejercer practicas cotidianas para el desarrollo de aplicaciones web con una base solida de datos, gestionar entornos virtuales, darle una muy buena estructura al proyecto para ser mostrado ante el publico en general.
